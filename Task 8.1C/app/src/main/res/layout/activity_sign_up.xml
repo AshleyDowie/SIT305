@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/signUpUserNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpFullNameEditText" />
+
+    <EditText
+        android:id="@+id/signUpPasswordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="password:"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpUserNameEditText" />
+
+    <EditText
+        android:id="@+id/signUpConfirmPasswordEditText"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="Confirm Password:"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpPasswordEditText" />
+
+    <EditText
+        android:id="@+id/signUpFullNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Full Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signUpCreateAccountButton"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="118dp"
+        android:text="Create Account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpConfirmPasswordEditText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
