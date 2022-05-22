@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task91P</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="Place_Api">AIzaSyBKcHlFspuSTig50nsUvc5jm2PrAAe3eX0</string>
+</resources>
